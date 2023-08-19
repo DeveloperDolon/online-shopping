@@ -40,7 +40,8 @@
     <!-- banner section start from here -->
     <div class="bg-[#F9F6E2]">
         <section class="max-w-screen-xl mx-auto">
-            <div class="flex justify-center md:flex-row flex-col items-center md:h-screen h-auto md:py-0 py-10">
+            <div
+                class="flex justify-center md:flex-row flex-col items-center md:h-screen h-auto md:py-0 py-10 md:w-full sm:w-9/12 mx-auto">
                 <div class="space-y-10 text-center">
                     <div class="space-y-8">
                         <h2 class="uppercase text-xl font-semibold">---Sale Fever---</h2>
@@ -50,7 +51,7 @@
 
                     <div>
                         <p class="text-lg">Use Promo Code <span
-                                class="bg-[#E527B2] px-4 py-2 text-white rounded-md uppercase">sell200</span></p>
+                                class="bg-[#E527B2] px-4 py-2 text-white rounded-md uppercase">SELL200</span></p>
                     </div>
 
                 </div>
@@ -67,8 +68,8 @@
 
     <!-- card section is start from here -->
     <div class="bg-[#F8F8F8] md:pt-24 pt-10">
-        <section class="max-w-7xl mx-auto">
-            <div class="flex justify-between md:flex-row flex-col-reverse gap-5">
+        <section class="max-w-7xl mx-auto pb-40">
+            <div class="flex justify-between md:flex-row flex-col-reverse gap-5 md:w-full sm:w-9/12 mx-auto">
 
                 <!-- all cards are here -->
                 <div class="lg:w-[75%] md:w-[70%] w-full">
@@ -76,63 +77,63 @@
                     <h1 class="text-3xl font-bold mb-8">Kitchenware</h1>
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                         <!-- card one -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod1.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod1.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">K. Accessories</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">K. Accessories</h1>
                                     <p class="mt-2"><span>39.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card tow -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod2.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod2.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">K. Accessories-Tow</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">K. Accessories-Tow</h1>
                                     <p class="mt-2"><span>25.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card three -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod3.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod3.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Home Cooker</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Home Cooker</h1>
                                     <p class="mt-2"><span>49.00</span>TK</p>
                                 </div>
                             </div>
@@ -146,63 +147,63 @@
                     <h1 class="text-3xl font-bold mb-8 mt-12">Sportswear</h1>
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                         <!-- card one -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod4.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Sports Back Cap</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Sports Back Cap</h1>
                                     <p class="mt-2"><span>49.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card tow -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod5.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Full Jersey Set</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Full Jersey Set</h1>
                                     <p class="mt-2"><span>69.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card three -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 shadow-xl p-5 cursor-pointer">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod6.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Sports cates</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Sports cates</h1>
                                     <p class="mt-2"><span>159.00</span>TK</p>
                                 </div>
                             </div>
@@ -215,63 +216,63 @@
                     <h1 class="text-3xl font-bold mb-8 mt-12">Furniture</h1>
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                         <!-- card one -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 cursor-pointer shadow-xl p-5">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod7.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod7.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Single Relax Chair</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Single Relax Chair</h1>
                                     <p class="mt-2"><span>185.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card tow -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 cursor-pointer shadow-xl p-5">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod8.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod8.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Children Play</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Children Play</h1>
                                     <p class="mt-2"><span>299.00</span>TK</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- card three -->
-                        <div class="card bg-base-100 shadow-xl p-5">
+                        <div onclick="addToCartFunc(this)" class="card bg-base-100 cursor-pointer shadow-xl p-5">
                             <div class="bg-[#F8F8F8] flex justify-center py-5">
-                                <img src="images/prod9.png" alt="Shoes"
-                                class="rounded-xl" />
+                                <img src="images/prod9.png" alt="Shoes" class="rounded-xl" />
                             </div>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div>
-                                    <h1 class="text-center text-xl font-semibold">Flexible Sofa</h1>
+                                    <h1 id="item-name" class="text-center text-xl font-semibold">Flexible Sofa</h1>
                                     <p class="mt-2"><span>339.00</span>TK</p>
                                 </div>
                             </div>
@@ -290,23 +291,44 @@
                             Have a coupon?
                         </h1>
                         <div class="relative">
-                            <input type="text" placeholder="Coupon code" class="input input-bordered w-full pr-16 lg:text-base md:text-sm"/> 
-                            <button class="btn bg-[#E527B2] absolute top-0 right-0 rounded-l-none text-white hover:text-gray-800">Apply</button>
+                            <input id="input-coupon" type="text" placeholder="Coupon code"
+                                class="input input-bordered w-full pr-16 lg:text-base md:text-sm" />
+                            <button id="coupon-apply-btn"
+                                class="btn bg-[#E527B2] absolute top-0 right-0 rounded-l-none text-white hover:text-gray-800">Apply</button>
                         </div>
                     </div>
 
 
                     <div class="px-5 py-6 bg-white rounded-xl mt-5">
-                        <div id="items-list" class="border-b">
+                        <div id="items-list" class="border-b space-y-3 pb-5">
 
                         </div>
 
                         <div class="space-y-2 py-5 border-b">
-                            <h1 class="font-semibold">Total Price : <span id="without-discount-price" class="font-normal">0.00</span>TK</h1>
-                            <h1 class="font-semibold">Discount : <span id="without-discount-price" class="font-normal">0.00</span>TK</h1>
-                            <h1 class="font-semibold">Total : <span id="without-discount-price" class="font-normal">0.00</span>TK</h1>
+                            <h1 class="font-semibold">Total Price : <span id="without-discount-price"
+                                    class="font-normal">0.00</span>TK</h1>
+                            <h1 class="font-semibold">Discount : <span id="discount-amount"
+                                    class="font-normal">0.00</span>TK</h1>
+                            <h1 class="font-semibold">Total : <span id="with-discount-price"
+                                    class="font-normal">0.00</span>TK</h1>
                         </div>
-                        <button class="btn bg-[#E527B2] text-white w-full mt-5 hover:text-gray-800">Make Purchase</button>
+                        <button onclick="my_modal_5.showModal()" id="purchase-btn"
+                            class="btn bg-[#E527B2] text-white w-full mt-5 hover:text-gray-800">Make Purchase</button>
+
+                        <!-- Open the modal using ID.showModal() method -->
+                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                            <form method="dialog" class="modal-box text-center py-16">
+                                <div class="flex justify-center">
+                                    <img src="images/congo.png" alt="">
+                                </div>
+                                <h3 class="font-bold text-3xl mt-3">Congratulations</h3>
+                                <p class="py-3 text-[#11111180]">Your Purchase the product</p>
+                                <div class="modal-action flex justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button onclick="resetAll()" class="btn bg-[#E527B2] text-white px-10">Go home</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
                 <!-- shopping cart is  here -->
